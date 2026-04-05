@@ -1,2 +1,46 @@
-/* Task 1.1. Add your movie data here 
-   and export it so it's available in server.js */
+const movies = {
+    tt0084787: {
+        imdbID: 'tt0084787',
+        Title: 'The Thing',
+        Released: '1982-06-25',
+        Runtime: 109,
+        Genres: ['Horror', 'Mystery', 'Sci-Fi'],
+        Directors: ['John Carpenter'],
+        Writers: ['Bill Lancaster', 'John W. Campbell Jr.'],
+        Actors: ['Kurt Russell', 'Wilford Brimley', 'Keith David'],
+        Plot: 'A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.',
+        Poster: 'https://m.media-amazon.com/images/M/MV5BNGViZWZmM2EtNGYzZi00ZDAyLTk3ODMtNzIyZTBjN2Y1NmM1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg',
+        Metascore: 57,
+        imdbRating: 8.2,
+    },
+    tt1375666: {
+        imdbID: 'tt1375666',
+        Title: 'Inception',
+        Released: '2010-07-16',
+        Runtime: 148,
+        Genres: ['Action', 'Adventure', 'Sci-Fi'],
+        Directors: ['Christopher Nolan'],
+        Writers: ['Christopher Nolan'],
+        Actors: ['Leonardo DiCaprio', 'Joseph Gordon-Levitt', 'Elliot Page'],
+        Plot: 'A thief who steals corporate secrets through dream-sharing technology is given the task of planting an idea into the mind of a C.E.O.',
+        Poster: 'https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg',
+        Metascore: 74,
+        imdbRating: 8.8,
+    },
+    tt1981115: {
+        imdbID: 'tt1981115',
+        Title: 'The Grand Budapest Hotel',
+        Released: '2014-03-28',
+        Runtime: 99,
+        Genres: ['Adventure', 'Comedy', 'Crime'],
+        Directors: ['Wes Anderson'],
+        Writers: ['Stefan Zweig', 'Wes Anderson', 'Hugo Guinness'],
+        Actors: ['Ralph Fiennes', 'F. Murray Abraham', 'Mathieu Amalric'],
+        Plot: 'A writer learns of a hotel owner\'s friendship with an employee embroiled in the theft of a priceless painting.',
+        Poster: 'https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_SX300.jpg',
+        Metascore: 88,
+        imdbRating: 8.1,
+    }
+}
+
+module.exports = movies
